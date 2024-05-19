@@ -1,0 +1,143 @@
+*{margin: 0px; padding: 0px;}
+body{
+  background-color: lavenderblush;
+}
+.wrapper{
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+}
+.header-top-height{
+  height: 30px;
+}
+.gmail{
+ text-align: center;
+ word-spacing: 10px;
+ text-shadow: 00 5px 5px gray;
+}
+.header-ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+ }
+ .header-ul li{
+  float: left;
+  margin-right: 10px;
+  margin-top: 2px;
+ }
+ .login-ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  float: right;
+ }
+ .login-ul li{
+  float: left;
+ }
+ .login-ul li a{
+  display: block;
+  text-decoration: none;
+  margin-top: 2px;
+  margin-left: 20px;
+ }
+ /* design  header-top-height -*/
+.left-part{
+  width: 500px;
+  margin-right: 15px;
+  float: left;
+}
+.right-part{
+  width: 500px;
+  float: right;
+}
+.search-bare{
+  float: right;
+  position: relative;
+  margin-left: 300px;
+}
+.title{
+ text-align: center;
+ letter-spacing: 5px;
+ word-spacing: 10px;
+ text-shadow: 00 5px 5px gray;
+}
+.search-area{
+ float: left;
+ margin-top: 20px;
+ width: 100%;
+}
+.search-input{
+ width: 50%;
+ margin-left: 22%;
+ height: 40px;
+ transition: 2s;
+}
+.search-input:focus{
+ box-shadow: 0px 0px 1px 1px lightcyan;
+}
+.search-btn{
+ height: 40px;
+ width: 100px;
+ background-color: green;
+ color: white;
+ padding: 5px;
+ text-align: center;
+}
+/* Form1 Start*/
+.form1{
+  background-color: crimson;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  position: 30px 80px;
+  margin-top: 30px;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form1 input{
+  padding: 5px 50px;
+  border-color: yellowgreen;
+  border-radius: 50px;
+}
+.form1 .btn{
+  font-weight: bold;
+}
+
+/* Form1 End*/
+/*-- Footer Start --*/
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: rgb(49, 48, 48);
+  color: white;
+  width: 100%;
+}
+.name h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+}
+.text p{
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  
+}
+.fixed-social-media i{
+  font-size: 35px;
+  position: relative;
+  margin: 10px;
+}
+.copy{
+  height: 50px;
+  width: 100%;
+  background-color: #4584ef;
+  font-size: 20px;
+  line-height: 50px;
+}
